@@ -31,15 +31,17 @@ Query Output Format:
 
 The query output is presented in the following format:
 
-product_line	month	warehouse	net_revenue
-product_one	---	---	---
-product_one	---	---	---
-product_one	---	---	---
-product_one	---	---	---
-product_one	---	---	---
-product_one	---	---	---
-product_two	---	---	---
-...	...	...	...
+| `product_line` | `month` | `warehouse` | `net_revenue` |
+|----------------|---------|-------------|---------------|
+| product_one    | ---     | ---         | ---           |
+| product_one    | ---     | ---         | ---           |
+| product_one    | ---     | ---         | ---           |
+| product_one    | ---     | ---         | ---           |
+| product_one    | ---     | ---         | ---           |
+| product_one    | ---     | ---         | ---           |
+| product_two    | ---     | ---         | ---           |
+| ...            | ...     | ...         | ...           |
+
 Project Files:
 
 SQL Code: Contains the SQL queries used to perform data analysis and generate the required results.
